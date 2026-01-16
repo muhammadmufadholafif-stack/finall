@@ -1,0 +1,46 @@
+body{
+    background: #f8f9fa;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.bg-navy {
+    background: midnightblue;
+}
+
+.text-info{
+    color: deepskyblue !important;
+}
+
+.mt-n5{
+    margin-top: -60px;
+}
+
+.card{
+    transition: 0.3s;
+    border: none;
+    border-radius: 20%;
+    border-left: midnightblue 5px solid;
+}
+
+.card:hover{
+    transform: translateY(-30px);
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    font-size: 40px;
+}
+
+@keyframes fadeInUp{
+    from{ opacity: 0;transform: translateY(20px);}
+    to {opacity: 1;transform: translateY(0);}
+}
+
+.animate-muncul{
+    animation: fadeInUp 0.8 ease forwards;
+}
